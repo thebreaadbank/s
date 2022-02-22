@@ -1,0 +1,483 @@
+body{
+  background-color:black;
+  margin:0px;
+  min-height:100%;
+  width:100%;
+  font-family: "Oswald";
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+footer{
+  margin:0px;
+  min-height:100%;
+  width:100%;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.pg{
+  height:100vh;
+  width:100vw;
+}
+.header{
+  position: sticky;
+  display: block;
+  width: 100vw;
+  height: 6.6vw;
+  text-align: center;
+  font-size: 2.3vw;
+  z-index: 20;
+  background-image: url("../header.png");
+  background-size: cover;
+}
+.tbbh{
+  width: 8.125vw;
+  height: 10vh;
+  float:left;
+  margin-top: 3vh;
+}
+.tibh{
+  width: 8.125vw;
+  height: 10vh;
+  float:left;
+  margin-top: 3vh;
+}
+.tsbh{
+  width: 8.125vw;
+  height: 10vh;
+  float:left;
+  margin-top: 3vh;
+}
+.rmh{
+  width: 18.125vw;
+  height: 10vh;
+  float:left;
+  margin-top: 3vh;
+}
+.th{
+  width: 15vw;
+  height: 10vh;
+  float:left;
+  font-size: 3vw;
+  margin-top: 1vh;
+}
+.th img{
+  height:5.7vw;
+  width: auto;
+}
+.gh{
+  width: 14.13vw;
+  height: 10vh;
+  float:right;
+  margin-top: 3vh;
+}
+.abh{
+  width: 14.13vw;
+  height: 10vh;
+  float:right;
+  margin-top: 3vh;
+}
+.soch{
+  width: 14.13vw;
+  height: 10vh;
+  float:right;
+  margin-top: 3vh;
+}
+
+.pg{
+  height:100vh;
+  width:100vw;
+}
+.title-game{
+  color:white;
+  font-family:"Oswald";
+  font-size:2.5vw;
+  width: 100vw;
+  height: 15vh;
+  float: left;
+  margin-left: 12vw;
+
+}
+.title-game h2{
+  width: 100vw;
+}
+#space{
+  width: 12vw;
+  height: 55vh;
+  float: left;
+}
+
+.game-content{
+  width:40vw;
+  height:55vh;
+  float:left;
+  margin:0;
+}
+.game-content p{
+  color:white;
+  font-family:"Oswald";
+  font-size:1.5vw;
+}
+.animation-game{
+  width:48vw;
+  height:55vh;
+  margin:0;
+  float:right;
+  text-align: center;
+}
+.animation-game img{
+  margin-top: 5vh;
+  width: 40vw;
+  height: auto;
+  border-radius: 5%;
+}
+.typewriter{
+  width: 100vw;
+  height: 10vh;
+}
+.typewriter h2 {
+  overflow: hidden;
+  border-right: .15em solid rgb(194, 89, 3);
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  text-align:center;
+  font-size:6vw;
+  animation: 
+  typing 4.5s steps(40, end),
+  blink-caret .75s step-end infinite;
+  animation-iteration-count:infinite;
+  color:white;
+  font-family:"Oswald";
+  text-transform: uppercase;
+}
+.header15{
+  display: none;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100%}
+}
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgba(230, 111, 0, 0.808); }
+}
+#footer-cs{
+  color:white;
+  text-transform:uppercase;
+  font-family:"Oswald";
+  text-align:center;
+  padding: auto;
+  font-size:1.8vw;
+  width:100vw;
+  height:5vh;
+  display: block;
+}
+#content{
+  width:100vw;
+  height:7vh;
+}
+#email-cs{
+  color:white;
+  font-family:"Oswald";
+  margin-bottom:3%;
+  text-align:center;
+  width:33.3vw;
+  height:7vh;
+  float:left;
+}
+.email{
+  font-size:1.2vw;
+  margin-left:12%;
+}
+#quote{
+  color:white;
+  font-family:"Oswald";
+  font-style:italic;
+  text-align:center;
+  font-size:1.1vw;
+  width:33.3vw;
+  float:left;
+}
+#social{
+  float:right;
+  width:33.4vw;
+  
+}
+.fphoto img{
+  margin-top:4vh;
+  width:2vw;
+  height:2vw;
+}
+#instagram{
+  width:14.7vw;
+  float:left;
+  text-align:right;
+}
+#twitter{
+  width:4vw;
+  float:left;
+  text-align:center;
+   
+}
+#discord{
+  width:14.7vw;
+  float:right;
+  text-align:left;
+}
+.wrapper{
+  display: none;
+}
+#active{
+  display: none;
+}
+.menu-btn{
+  display: none;
+}
+@media(max-aspect-ratio:5/4){
+  .title-game{
+    width:100vw;
+    height:15vh;
+    text-align:center;
+    font-size:5.3vw;
+    margin:0;
+  }
+  .game-content{
+  color:white;
+  font-family:"Oswald";
+  text-align:center;
+  width:85vw;
+  font-size:4.5vw;
+  margin:0;
+  height:15vh;
+  }
+  .animation-game{
+    width:100vw;
+    height:55vh;
+    margin:0;
+    text-align: center;
+  }
+  .animation-game img{
+    margin-top: 5vh;
+    width: 40vw;
+    height: auto;
+    border-radius: 5%;
+  }
+  .typewriter{
+    display:none;
+  }
+  #footer{
+    width: 100vw;
+    height: 32vh;
+  }
+  #footer-cs{
+    color:white;
+    text-transform:uppercase;
+    font-family:"Oswald";
+    text-align:center;
+    margin-top:35%;
+    font-size:2.8vh;
+    width:100vw;
+    height:7vh;
+  }
+  #content{
+    width:100vw;
+    height:30vh;
+  }
+  #email-cs{
+    color:white;
+    font-family:"Oswald";
+    margin-bottom:3%;
+    text-align:center;
+    height:8vh;
+    width: 100vw;
+    font-size:1.5vh;
+  }
+  .email{
+    margin:0;
+    font-size:2.5vh;
+  }
+  #quote{
+    color:white;
+    font-family:"Oswald";
+    font-style:italic;
+    text-align:center;
+    font-size:2.5vh;
+    width:100vw;
+    height: 9vh;
+  }
+  #social{
+    width:100vw;
+    height: 8vh;
+  }
+  .fphoto img{
+    width:5vh;
+    height:5vh;
+  }
+  #instagram{
+    width:40vw;
+    text-align:right;
+    height: 6vh;
+  }
+  #twitter{
+    width:20vw;
+    text-align:center;
+    height: 6vh;
+  }
+  #discord{
+    width:40vw;
+    height: 6vh;
+    text-align:left;
+  }
+  .header{
+    display: none;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .wrapper{
+    display: block;
+  }
+  #active{
+    display: block;
+    height: 0;
+  }
+  .menu-btn{
+    display: block;
+  }
+  .wrapper{
+    position:fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    clip-path: circle(25px at calc(100% - 45px) 45px);
+    transition: all 0.3s ease-in-out;
+    z-index: 1;
+    background-image:url("../header.png");
+    background-repeat:none;
+    background-size:cover;
+  }
+  #active:checked ~ .wrapper{
+    clip-path: circle(75%);
+  }
+  .menu-btn{
+    position:fixed;
+    z-index: 2;
+    right: 20px;
+    /* left: 20px; */
+    top: 20px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  #active:checked ~ .menu-btn{
+    background: #fff;
+    color: #c96e24;
+  }
+  #active:checked ~ .menu-btn i:before{
+    content: "\f00d";
+  }
+  .wrapper ul{
+    position: absolute;
+    margin-top: 10vh;
+    left: 50%;
+    transform: translateX(-50%);
+    list-style: none;
+    text-align: center;
+  }
+  .wrapper ul li{
+    margin: 15px 0;
+  }
+  .wrapper ul li a{
+    color: none;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 5px 30px;
+    color: #fff;
+    position: relative;
+    line-height: 50px;
+    transition: all 0.3s ease;
+  }
+  .wrapper ul li a:after{
+    position: absolute;
+    content: "";
+    background: #fff;
+    width: 100%;
+    height: 50px;
+    left: 0;
+    border-radius: 50px;
+    transform: scaleY(0);
+    z-index: -1;
+    transition: transform 0.3s ease;
+  }
+  .wrapper ul li a:hover:after{
+    transform: scaleY(1);
+  }
+  .wrapper ul li a:hover{
+    color: #c96e24;
+  }
+  input[type="checkbox"]{
+    display: none;
+  }
+  .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    text-align: center;
+    width: 100%;
+    color: #202020;
+  }
+  
+  .content .title{
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .content p{
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .header15{
+    display: block;
+    width: 100vw;
+    height: 15vh;
+    color: white;
+  }
+  #logo15{
+    margin-top: 2vh;
+    width: 15vw;
+    height: 15vh;
+    float:left;
+    text-align: center;
+  }
+  #logo15 img{
+    width: 12vw;
+    height: auto;
+  }
+  #titlu15{
+    margin-top: 3vh;
+    width: 70vw;
+    height: 15vh;
+    float:left;
+    text-align: center;
+  }
+  #titlu15 a{
+    font-size: 6vw;
+  }
+}
+
+ 
+
+
